@@ -89,6 +89,7 @@ class Rcon
         if ($this->socket) {
                     fclose($this->socket);
         }
+        $this->authorized = true;
     }
 
     /**
